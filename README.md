@@ -11,6 +11,7 @@ cd /path/to/working/directory
 ## Dependencies
 
 - [fzf](https://github.com/junegunn/fzf)
+- [fd](https://github.com/sharkdp/fd)
 
 ## Install
 
