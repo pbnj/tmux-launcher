@@ -8,6 +8,10 @@ working directories, instead of:
 cd /path/to/working/directory
 ```
 
+## Dependencies
+
+- [fzf](https://github.com/junegunn/fzf)
+
 ## Install
 
 Clone this repository locally:
@@ -53,3 +57,8 @@ The available options and their default values are:
 - `@tmux-launcher-splitw-bind` = `t`
 - `@tmux-launcher-neww-bind` = `C-t`
 - `@tmux-launcher-dir` = `${HOME}`
+
+## Credits
+
+- [junegunn/fzf](https://github.com/junegunn/fzf) for the command-line fuzzy
+  finder utility.
