@@ -26,6 +26,12 @@ Then add the following to your `.tmux.conf`:
 if-shell " [ -d </clone/path/to/tmux-launcher> ] " run-shell "</clone/path/to/tmux-launcher>/tmux_launcher.tmux"
 ```
 
+Reload tmux:
+
+```sh
+tmux source-file ~/.tmux.conf
+```
+
 ## Usage
 
 To launch a split window:
